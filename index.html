@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="wikipedia project">
+    <meta name="author" content="duonghailee">
+    <meta name="keywords" content="random, auto generator, wikipedia entry ,wikipedia API">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <title>Twitch TV project</title>
+</head>
+
+
+<body id="page">
+    <div class="container-fluid">
+        <div id="twitch-menu" class="row">
+            <div class="col-xs-8">
+                <h3 class="text-center" style="font-size: 200%"> Twitch TV STREAMERS </h3>
+            </div>
+            <div class="col-xs-4 buttons">
+                <button type="button" class="btn btn-primary" onclick="getAll()" autofocus>All</button>
+                <button type="button" class="btn btn-success" onclick="getOnline()">Online</button>
+                <button type="button" class="btn btn-danger" onclick="getOffline()">Offline</button>
+            </div>
+        </div>
+
+        <div id="twitch-content" class="row">
+            <div id="streamers" class="container">
+
+            </div>
+        </div>
+
+
+        <footer class="text-center">Written and coded By <a target="_blank" href="http://users.metropolia.fi/~hail">duonghailee</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
